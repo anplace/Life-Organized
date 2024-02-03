@@ -11,7 +11,7 @@ $(function () {
     localStorage.setItem(time, value);
   })
 
-  // Code to change the hour slots color dependent on the time set by the users local computer settings. 
+  // Code to change the hour slots color, dependent on the time set by the users local computer settings. 
   function updateHour (){
     var currentHour = dayjs().hour();
 
